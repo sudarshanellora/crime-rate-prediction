@@ -1,0 +1,21 @@
+"Dataset","Method","Test_MSE","Execution_Time_Sec"
+"Boston","OLS",20.0738836614278,0.0199999999999996
+"Boston","Ridge (L2)",19.1167384341136,0.109999999999999
+"Boston","Lasso (L1)",19.7179010091576,0.0799999999999983
+"Boston","Elastic Net",19.2445661500175,0.0499999999999972
+"Boston","SVM (~unregularised, C=1000)",28.1989644090566,0.0800000000000018
+"Boston","SVM (L2-regularised, CV-best C)",10.9370886453126,0.0300000000000011
+"Boston","MLP (unregularised)",7.35106560259326,0.629999999999999
+"Boston","MLP (L2 weight decay)",12.3684264957039,0.0800000000000018
+"Boston","MLP (L1 / Lasso, ANN2)",7.59376260948082,0.109999999999999
+"Boston","MLP (Elastic Net, ANN2)",7.59177678967515,0.100000000000001
+"Communities and Crime","OLS",0.0158951930159138,0.00999999999999801
+"Communities and Crime","Ridge (L2)",0.0164080860714361,0.43
+"Communities and Crime","Lasso (L1)",0.0165650108693439,0.32
+"Communities and Crime","Elastic Net",0.0161719397486615,0.329999999999998
+"Communities and Crime","SVM (~unregularised, C=1000)",0.024838458482664,2.00999999999999
+"Communities and Crime","SVM (L2-regularised, CV-best C)",0.0177952661770368,1.47
+"Communities and Crime","MLP (unregularised)",0.818329740179557,151.05
+"Communities and Crime","MLP (L2 weight decay)",0.0516755368362265,149.82
+"Communities and Crime","MLP (L1 / Lasso, ANN2)",0.0287806555359513,4.94
+"Communities and Crime","MLP (Elastic Net, ANN2)",0.0276869389883578,3.81
