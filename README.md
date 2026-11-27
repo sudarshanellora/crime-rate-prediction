@@ -7,6 +7,8 @@
 ![e1071](https://img.shields.io/badge/e1071-SVM-8CAAE6?style=flat-square)
 ![ANN2](https://img.shields.io/badge/ANN2-Neural%20Networks-F37626?style=flat-square)
 
+**[▶ View the interactive report](https://sudarshanellora.github.io/crime-rate-prediction/)**
+
 ---
 
 ## The question
@@ -140,6 +142,7 @@ crime-rate-prediction/
 │   └── plots.R      Summary table and diagnostic charts
 ├── data/            Data not included, see data/README.md
 ├── images/          Charts from the submitted run
+├── docs/            R Markdown report (index.Rmd) and the knitted page (index.html)
 └── results/         Test MSE and training time for every model
 ```
 
